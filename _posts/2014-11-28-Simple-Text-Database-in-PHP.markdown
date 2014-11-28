@@ -32,40 +32,39 @@ The actions we can perform on the database are the following:
 
 The record added will be in the form of *timestamp,note*, for example: 
 
-```
-Wednesday Jun 11 2014 20:54:54,first record
-Thursday Jun 12 2014 22:07:55,second record
-Thursday Jun 12 2014 21:08:14,third record
-```
+`Wednesday Jun 11 2014 20:54:54,first record`
+`Thursday Jun 12 2014 22:07:55,second record`
+`Thursday Jun 12 2014 21:08:14,third record`
 
 The HTML source code:
 
-```html
+```
 <head>
     <meta charset="utf-8" />
     <title>Text File Database Demo</title>
 </head>
 <body>
- 
+
 <form action="databaseAction.php" method="post">
- 
+
 Add a Record: <button type="submit"> Timestamp </button>
 Notes: <input type="text" name="note">
 <input type=hidden name=operation value=1>
 <p></p>
 </form>
- 
+
 <form action="databaseAction.php" method="post">
 <input type=hidden name=operation value=2>
 Clear Data: <button type="submit">Erase</button>
 <p></p>
 </form>
- 
+
 <form action="databaseAction.php" method="post">
 <input type=hidden name=operation value=3>
 Records in the Database: <button type="submit">Show</button>
 <p></p>
 </form>
+
 ```
 
 
