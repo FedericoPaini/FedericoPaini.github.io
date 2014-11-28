@@ -10,4 +10,6 @@ tags:
 categories: jekyll update
 ---
 Sometimes you need to capture data sequentially without structured tables or relationships. In this case a SQL database is overkill and unnecessarily complex for the task at hand.  
-To see the demo click [here] (http://www.paini.org/federico/TextDatabase/index.php "Try it out!").
+To see the demo click [here].
+
+[here]: http://www.paini.org/federico/TextDatabase/index.php
