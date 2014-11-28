@@ -2,21 +2,21 @@
     font-family: 'Cardo';
     font-style: normal;
     font-weight: normal;
-    src: local('Cardo'), url('/federico/Cardo99s.woff') format('woff');
+    src: local('Cardo'), url('Cardo99s.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    src: local('Lato Regular'), local('Lato-Regular'), url('/federico/Lato-Regular.woff') format('woff');
+    src: local('Lato Regular'), local('Lato-Regular'), url('Lato-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Droid Sans Mono';
     font-style: normal;
     font-weight: normal;
-    src: local('Droid Sans Mono'), local('DroidSansMono'), url('/federico/DroidSansMono.woff') format('woff');
+    src: local('Droid Sans Mono'), local('DroidSansMono'), url('DroidSansMono.woff') format('woff');
 }
 
 body {
