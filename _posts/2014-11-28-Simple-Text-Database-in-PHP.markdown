@@ -38,7 +38,7 @@ The record added will be in the form of *timestamp,note*, for example: 
 
 The HTML source code:
 
-```
+```javascript
 <head>
     <meta charset="utf-8" />
     <title>Text File Database Demo</title>
@@ -64,13 +64,7 @@ Clear Data: <button type="submit">Erase</button>
 Records in the Database: <button type="submit">Show</button>
 <p></p>
 </form>
-```
-
-
-
-
-
-
+````
 
 
 
