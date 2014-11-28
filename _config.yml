@@ -1,7 +1,7 @@
 # Site settings
 title: Federico's blog
 email: federic.paini@gmail.com
-description: > Digital ramblings of a tech fanatic
+description: >Digital ramblings of a tech fanatic
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://federicopaini.github.io/" # the base hostname & protocol for your site
 twitter_username: @FedericoPaini
