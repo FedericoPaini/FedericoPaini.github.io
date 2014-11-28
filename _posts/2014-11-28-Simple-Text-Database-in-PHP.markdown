@@ -32,9 +32,9 @@ The actions we can perform on the database are the following:
 
 The record added will be in the form of *timestamp,note*, for example: 
 
-`Wednesday Jun 11 2014 20:54:54,first record`
-`Thursday Jun 12 2014 22:07:55,second record`
-`Thursday Jun 12 2014 21:08:14,third record`
+1. `Wednesday Jun 11 2014 20:54:54,first record`
+2. `Thursday Jun 12 2014 22:07:55,second record`
+3. `Thursday Jun 12 2014 21:08:14,third record`
 
 The HTML source code:
 
@@ -64,7 +64,6 @@ Clear Data: <button type="submit">Erase</button>
 Records in the Database: <button type="submit">Show</button>
 <p></p>
 </form>
-
 ```
 
 
