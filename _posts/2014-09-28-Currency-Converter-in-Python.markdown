@@ -9,11 +9,6 @@ tags:
   - Python programming
 categories: Python
 tags: [python, programming, code]
-author:
-  email: federico.paini@gmail.com
-  display_name: FedericoPaini
-  first_name: Federico
-  last_name: Paini
  
 ---
 Recently I find myself traveling quite a bit internationally. I needed a program to quickly convert my money into the currency of the country I happen to visit at the moment. I took advantage of this need to practice my coding skills in Python. In this post I explain how I did  it.
