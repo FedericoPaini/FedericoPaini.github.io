@@ -15,6 +15,8 @@ Recently I find myself traveling quite a bit internationally. I needed a program
 
 I'm always refining the code. You can find the most updated version on this program on [Github](https://github.com/FedericoPaini/Python/blob/master/currencyExchangeCalculator.py).
 
+<p>&nbsp;</p>
+
 ###Business requirements/user stories
 
 1. As I user I need to be able to put in any amount I desire and see the resulted converted output on screen
@@ -24,6 +26,7 @@ I'm always refining the code. You can find the most updated version on this prog
   * The output needs to be formatted (i.e: $3,235.50)
 * The conversion rate used should not be more the 24 hours old
 
+<p>&nbsp;</p>
 
 ###How the program works
 
