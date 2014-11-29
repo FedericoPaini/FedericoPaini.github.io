@@ -32,7 +32,7 @@ The actions we can perform on the database are the following:
 1. Add a new record (sequentially)
 2. Empty the database
 3. Display all the records in the database (all the lines in the text file) with the option to delete a selected line
-4. Be able to backup the database when needed
+4. Be able to backup the database when needed (not present in the live demo)
 
 The record added will be in the form of *timestamp,note*, for example: 
 
