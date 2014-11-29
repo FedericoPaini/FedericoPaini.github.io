@@ -129,8 +129,6 @@ def checkChoice(choice):
 ###The Code
 
 ```
-#!/usr/bin/python
-
 import sys, os, os.path, urllib2, re, cookielib, time, datetime, locale
 
 file = 'conv_rates.txt' #file containing the exchange rates
