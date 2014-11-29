@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a Program/Project Manager(yes, one of those!) with an extreme passion for technology, computing, and all things geek. I'm currently a Sr. Solution Architect for [Saleforce](http://www.salesforce.com/services)
+I'm a Program/Project Manager(yes, one of those!) with an extreme passion for technology, computing, and all things geek. I'm currently a Sr. Solution Architect for [Saleforce](http://www.salesforce.com/services-training/salesforce-services/cloud-transformation.jsp)
 
 I started coding in Commodore64 BASIC when I was 14 years old and I never looked back. In my spare time I'm an avid fitness and nutrition enthusiast, PHP, Ruby and iOS programmer. I live in Tampa, FL.
 
