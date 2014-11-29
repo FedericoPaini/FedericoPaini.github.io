@@ -1,7 +1,7 @@
 markdown: redcarpet
 highlighter: null
 permalink: /:title
-port: 4040
+port:
 url: federicopaini.github.io
 baseurl:
 
