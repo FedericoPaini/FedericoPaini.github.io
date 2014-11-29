@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Disclaimer
-permalink: /disclaimer/
 ---
+
 
 The information contained in this Blog (the "Blog") is intended solely to provide general guidance on matters of interest for the personal use of the reader, who accepts full responsibility for its use. The application and impact of laws can vary widely based on the specific facts involved. Given the changing nature of laws, rules and regulations, and the inherent hazards of electronic communication, there may be delays, omissions or inaccuracies in information contained in this Blog. Accordingly, the information on this Blog is provided with the understanding that the authors and publishers are not herein engaged in rendering technical, legal, tax, or other professional advice or services. As such, it should not be used as a substitute for consultation with a professional software developer, project manager, lawyer or other competent advisers. Before making any decision or taking any action, you should consult a professional adviser.
 

@@ -7,15 +7,16 @@ tags:
   - Python
   - Code
   - Python programming
+  - programming
 categories: Python
-tags: [python, programming, code]
- 
+
 ---
+
+
+
 Recently I find myself traveling quite a bit internationally. I needed a program to quickly convert my money into the currency of the country I happen to visit at the moment. I took advantage of this need to practice my coding skills in Python. In this post I explain how I did  it.
 
 I'm always refining the code. You can find the most updated version on this program on [Github](https://github.com/FedericoPaini/Python/blob/master/currencyExchangeCalculator.py).
-
-<p>&nbsp;</p>
 
 ###Business requirements/user stories
 
@@ -25,8 +26,6 @@ I'm always refining the code. You can find the most updated version on this prog
   * Needs to have a menu to pick what conversion rate to use 
   * The output needs to be formatted (i.e: $3,235.50)
 * The conversion rate used should not be more the 24 hours old
-
-<p>&nbsp;</p>
 
 ###How the program works
 
@@ -44,8 +43,6 @@ When the user hits return the calculated amount converted in the desired currenc
 
 ![Fig.3](http://codecoms.com/wp-content/uploads/2014/09/screen3-300x47.png "Fig.3 Final screen with the converted amount.")
 
-<p>&nbsp;</p>
-
 ###Code Explanation
 
 * __conv_rates.txt__. is the text database in which I store all the currency conversion rate, line by line comma delimited:
@@ -59,7 +56,7 @@ When the user hits return the calculated amount converted in the desired currenc
  INR-USD,0.016291
 </pre>
 
-* **create_exchange_dict()**. In this function read the *conv_rates.txt* and create the Exchange Rate Dictionary:
+* __create_exchange_dict()__. In this function read the *conv_rates.txt* and create the Exchange Rate Dictionary:
 
 {% highlight python %}
 
@@ -133,7 +130,6 @@ def checkChoice(choice):
 
 * **main()**. This is the main function that shows the menu and call all the above functions when the user has made a selection. It's the first function being executed when the program is launched
 
-<p>&nbsp;</p>
 
 ###The Code
 
@@ -376,3 +372,5 @@ def main():
 #execution
 main()
 {% endhighlight %}
+<p>&nbsp;</p>
+{% include twitter_plug.html %}

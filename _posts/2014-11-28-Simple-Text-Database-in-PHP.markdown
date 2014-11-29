@@ -36,9 +36,9 @@ The actions we can perform on the database are the following:
 
 The record added will be in the form of *timestamp,note*, for example: 
 
-1. `Wednesday Jun 11 2014 20:54:54,first record`
-2. `Thursday Jun 12 2014 22:07:55,second record`
-3. `Thursday Jun 12 2014 21:08:14,third record`
+`Wednesday Jun 11 2014 20:54:54,first record`<br>
+`Thursday Jun 12 2014 22:07:55,second record`<br>
+`Thursday Jun 12 2014 21:08:14,third record`<br>
 
 The HTML source code:
 
