@@ -67,6 +67,13 @@ The HTML source code:
 	Records in the Database: <button type="submit">Show</button>
 	<p></p>
 	</form>
+	
+	<form action="databaseAction.php"
+      method="post">
+      <input type=hidden name=operation value=5>
+      <p>Backup the database: <button type="submit">Backup</button>
+      </p>
+    </form>
 
 
 The PHP file that performs the selected actions to the file is quite simple. I use the `Switch/Case` control structure to select what operation to perform.
