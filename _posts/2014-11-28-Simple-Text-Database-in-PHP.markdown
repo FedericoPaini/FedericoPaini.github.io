@@ -41,7 +41,7 @@ The record added will be in the form of *timestamp,note*, for example: 
 3. `Thursday Jun 12 2014 21:08:14,third record`
 
 The HTML source code:
-
+{% highlight html %}
 	<head>
 		<meta charset="utf-8" />
 	    <title>Text File Database Demo</title>
@@ -74,7 +74,7 @@ The HTML source code:
       <p>Backup the database: <button type="submit">Backup</button>
       </p>
     </form>
-
+{% endhighlight %}
 
 The PHP file that performs the selected actions to the file is quite simple. I use the `Switch/Case` control structure to select what operation to perform.
 
