@@ -29,17 +29,17 @@ I'm always refining the code. You can find the most updated version on this prog
 
 The user gets prompted to chose from a menu of possible conversions as shown in Fig. 1 
 
-![Fig.1](http://codecoms.com/wp-content/uploads/2014/09/screen1-300x155.png)
+![Fig.1](http://codecoms.com/wp-content/uploads/2014/09/screen1-300x155.png "Fig.1")
 
 
 After the user has chosen which currency to convert the prompt asks for the amount to convert as shown in Fig.2
 
 
-![Fig.2](http://codecoms.com/wp-content/uploads/2014/09/screen2-300x183.png)
+![Fig.2](http://codecoms.com/wp-content/uploads/2014/09/screen2-300x183.png "Fig.2")
 
 When the user hits return the calculated amount converted in the desired currency is shown along with the conversion rate as shown in Fig.3
 
-![Fig.3](http://codecoms.com/wp-content/uploads/2014/09/screen3-300x47.png)
+![Fig.3](http://codecoms.com/wp-content/uploads/2014/09/screen3-300x47.png "Fig. 3")
 
 ###Code Explanation
 
