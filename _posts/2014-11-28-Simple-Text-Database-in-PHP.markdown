@@ -22,7 +22,7 @@ For simplicity I separated the files into HTML and PHP.
 * HTML: *index.html*
 * PHP engine: *databaseAction.php*
 
-**Note:** *the HTML and PHP file can be combined in one single PHP file that calls itself with the use of the $_SERVER['PHP_SELF'] variable (this is what I did in the live demo).*
+**Note:** *the HTML and PHP file can be combined in one single PHP file that calls itself with the use of the `$_SERVER['PHP_SELF']` variable (this is what I did in the live demo).*
 
 ###How it works
 The  HTML page calls the PHP script to manipulate the text database. Simple and effective.
