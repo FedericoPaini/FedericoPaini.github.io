@@ -61,7 +61,8 @@ When the user hits return the calculated amount converted in the desired currenc
 
 * **create_exchange_dict()**. In this function read the *conv_rates.txt* and create the Exchange Rate Dictionary:
 
-<pre>
+{% highlight python %}
+
  def create_exchange_dict():
 	exchange_rates_dict = {}
 	conversion_rates = open (file, 'r') #open file read only
@@ -71,11 +72,12 @@ When the user hits return the calculated amount converted in the desired currenc
 	
 		conversion_rates.close()
 		return exchange_rates_dict
-</pre>
+		
+{% endhighlight %}
 
 * **grab_web_rates()**. This is the heart of the program. The function goes online, grabs the exchange rates from a live website and saved them into *conv_rates.txt*. To do this I use the Python libraries  `urllib2` and `re`. In this instance I only grab the first 23 lines to avoid copying the  whole website.
 
-<pre>
+{% highlight python %}
 def grab_web_rates():
 	conversion_rates = open (file, 'w')
 	web = urllib2.urlopen('http://www.x-rates.com/table/?from=USD')
@@ -94,11 +96,11 @@ def grab_web_rates():
 		if line >= 23:
 			break
 	conversion_rates.close()
-</pre>
+{% endhighlight %}
 
 * **get_result(choice, amount)**. Based on the amount and the exchange rate chosen by the user this function returns the desired amount in the new currency based on the exchange rate in the database. Returns an error if the rate is not found.
 
-<pre>
+{% highlight python %}
 def get_result(choice, amount):
 	dict = create_exchange_dict()
 	for exchange,rate in dict.items():
@@ -108,18 +110,18 @@ def get_result(choice, amount):
 			break
 		else:
 			error = "Exchange not found! -get_result()- "
-</pre>
+{% endhighlight %}
 
 *  **format_currency(value)**. Just a simple function that formats the amount with a comma every thousands and only two decimals after the point.
 
-<pre>
+{% highlight python %}
 def format_currency(value):
     return "{:,.2f}".format(value)
-</pre>
+{% endhighlight %}
 
 * **checkChoice(choice)**. Error handling function that checks that the user enter a number. This is needed in the menu section.
 
-<pre>
+{% highlight python %}
 def checkChoice(choice):
  if str.isdigit(choice): #check that the selection is a digit or exit
 		return True
@@ -127,7 +129,7 @@ def checkChoice(choice):
 		os.system('clear')
 		print "Thanks for using Currency Calculator! \n"
 		exit()
-</pre>
+{% endhighlight %}
 
 * **main()**. This is the main function that shows the menu and call all the above functions when the user has made a selection. It's the first function being executed when the program is launched
 
@@ -136,7 +138,7 @@ def checkChoice(choice):
 ###The Code
 
 
-<pre>
+{% highlight python %}
 #!/usr/bin/python	
 import sys, os, os.path, urllib2, re, cookielib, time, datetime, locale
 
@@ -373,4 +375,4 @@ def main():
 
 #execution
 main()
-</pre>
+{% endhighlight %}
