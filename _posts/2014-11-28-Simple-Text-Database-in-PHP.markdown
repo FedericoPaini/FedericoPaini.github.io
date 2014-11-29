@@ -28,7 +28,8 @@ For simplicity I separated the files into HTML and PHP.
 The  HTML page calls the PHP script to manipulate the text database. Simple and effective.
 
 The actions we can perform on the database are the following:
-1.Add a new record (sequentially)
+
+1. Add a new record (sequentially)
 2. Empty the database
 3. Display all the records in the database (all the lines in the text file) with the option to delete a selected line
 4. Be able to backup the database when needed
