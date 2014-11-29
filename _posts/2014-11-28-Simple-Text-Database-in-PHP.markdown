@@ -6,8 +6,10 @@ date:   2014-11-28 16:20:40
 tags:
   - PHP
   - Text database
+  - Code
   - PHP programming
-categories: jekyll update
+categories: PHP
+tags: [php, programming, code, text database]
 ---
 Sometimes you need to capture data sequentially without structured tables or relationships. In this case a SQL database is overkill and unnecessarily complex for the task at hand.  
 
