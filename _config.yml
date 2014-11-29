@@ -1,7 +1,7 @@
 markdown: redcarpet
 highlighter: null
 permalink: /:title
-url: federicopaini.github.io
+url: http://federicopaini.github.io
 baseurl:
 
 redcarpet:
