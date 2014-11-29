@@ -56,6 +56,7 @@ When the user hits return the calculated amount converted in the desired currenc
  * **create_exchange_dict()**. In this function read the *conv_rates.txt* and create the Exchange Rate Dictionary:
  
  ```
+	 
 	 def create_exchange_dict():
 		exchange_rates_dict = {}
 		conversion_rates = open (file, 'r') #open file read only
@@ -129,6 +130,7 @@ def checkChoice(choice):
 ###The Code
 
 ```
+	
 	import sys, os, os.path, urllib2, re, cookielib, time, datetime, locale
 	
 	file = 'conv_rates.txt' #file containing the exchange rates
