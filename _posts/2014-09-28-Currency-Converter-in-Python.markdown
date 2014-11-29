@@ -41,6 +41,8 @@ When the user hits return the calculated amount converted in the desired currenc
 
 ![Fig.3](http://codecoms.com/wp-content/uploads/2014/09/screen3-300x47.png "Fig.3 Final screen with the converted amount.")
 
+<p>&nbsp;</p>
+
 ###Code Explanation
 
 * __conv_rates.txt__. is the text database in which I store all the currency conversion rate, line by line comma delimited:
@@ -126,6 +128,7 @@ def checkChoice(choice):
 
 * **main()**. This is the main function that shows the menu and call all the above functions when the user has made a selection. It's the first function being executed when the program is launched
 
+<p>&nbsp;</p>
 
 ###The Code
 
