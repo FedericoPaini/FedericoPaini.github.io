@@ -212,6 +212,8 @@ switch($id) {
 
 {% endhighlight %}
 
+<p>&nbsp;</p>
+{% include twitter_plug.html %}
 
 
 
