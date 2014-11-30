@@ -227,7 +227,8 @@ def main():
 	checkChoice(choice)
 	choice = int(choice)
 
-	if choice == 0 or choice > 10: #Exit script if the selection is not whithin the allowed range
+	#Exit script if the selection is not whithin the allowed range
+	if choice == 0 or choice > 10: 
 		os.system('clear')
 		print "Thanks for using Currency Calculator! \n"
 		exit()
