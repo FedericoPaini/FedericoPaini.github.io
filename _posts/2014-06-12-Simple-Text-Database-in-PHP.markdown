@@ -2,7 +2,7 @@
 layout: post
 title:  "Simple Text File Database in PHP"
 subtitle: "Create and maintain a sequential text database in PHP"
-date:   2014-11-28 16:20:40
+date:   2014-06-12 16:20:40
 tags:
   - PHP
   - Text database
