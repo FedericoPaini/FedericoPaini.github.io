@@ -364,7 +364,7 @@ def main():
 			result = r[1]
 			rate = r[0]
 			print "Your amount (ARS): ", format_currency(amount)
-			print "Converts to US Dollar (USD): " , locale.currency( result, grouping=True )
+			print "Converts to US Dollar (USD): " , locale.currency(result, grouping=True)
 			print "The Peso Argentino (ARS) -> US Dollar exchange rate is: ", rate
 			break
 
