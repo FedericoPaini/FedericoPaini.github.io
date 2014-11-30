@@ -80,7 +80,8 @@ def grab_web_rates():
 	web = urllib2.urlopen('http://www.x-rates.com/table/?from=USD')
 	html = web.read()
 	line = 1
-	titles = re.findall(r'<td class=\'rtRates\'><a href=\'/graph/\?from=(.*?)</td>', html)
+	titles = re.findall(r'<td class=\'rtRates\'>
+	<a href=\'/graph/\?from=(.*?)</td>', html)
 	for title in titles:
 		title = title.replace("amp;to=", "")
 		title = title.replace("&", "-")
@@ -169,7 +170,8 @@ def grab_web_rates():
 	web = urllib2.urlopen('http://www.x-rates.com/table/?from=USD')
 	html = web.read()
 	line = 1
-	titles = re.findall(r'<td class=\'rtRates\'><a href=\'/graph/\?from=(.*?)</td>', html)
+	titles = re.findall(r'<td class=\'rtRates\'>
+	<a href=\'/graph/\?from=(.*?)</td>', html)
 	for title in titles:
 		title = title.replace("amp;to=", "")
 		title = title.replace("&", "-")
