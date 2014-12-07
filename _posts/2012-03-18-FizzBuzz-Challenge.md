@@ -18,7 +18,7 @@ I came across a March 5th post on Jeff Atwood's website <a title="Coding Horror"
 This is my code in. I admit is not the most elegant solution but it does the trick.
 
 PHP:
-<pre class="lang:php decode:true " title="FizzBuzz Challenge PHP code">&lt;?php
+{% highlight php %}
 
 for ($i = 1; $i &lt;= 100; $i++) {
 
@@ -33,11 +33,16 @@ for ($i = 1; $i &lt;= 100; $i++) {
   }
 }
 
-?&gt;</pre>
+?&gt;
+
+{% endhighlight %}
 &nbsp;
 
 Apple Swift:
-<pre class="lang:swift decode:true " title="FizzBuzz Challenge Swift Code">var three = 3
+
+{% highlight swift %}
+
+var three = 3
 var five = 5
 
 var n = 0
@@ -53,11 +58,15 @@ for n in 1...99 {
         println(n)
     }
     
-}</pre>
+}
+
+{% endhighlight %}
 &nbsp;
 
 Objective-C:
-<pre class="lang:objc decode:true " title="FizzBuzz Challenge Objective-C code">int main (int argc, const char * argv[])
+
+{% highlight objective-c %}
+int main (int argc, const char * argv[])
  
 {
  
@@ -91,11 +100,17 @@ Objective-C:
  
 return 0;
  
-}</pre>
+}
+
+{% endhighlight %}
+
 &nbsp;
 
 Python:
-<pre class="lang:python decode:true " title="FizzBuzz Challenge Python Code">#!/usr/bin/python
+
+{% highlight python %}
+
+#!/usr/bin/python
 
 def FizzBuzz(number):
 
@@ -110,5 +125,7 @@ def FizzBuzz(number):
 			print x
 
 number = int(raw_input("Number Range for FizzBuzz Challenge? "))
-FizzBuzz(number)</pre>
+FizzBuzz(number)
+
+{% endhighlight %}
 &nbsp;
