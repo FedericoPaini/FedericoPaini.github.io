@@ -11,7 +11,9 @@ tags:
 categories: PHP
 ---
 
-I came across a March 5th post on Jeff Atwood's website <a title="Coding Horror" href="http://www.codinghorror.com" target="_blank">Coding Horror</a> title <a title="How to Hire a programmer" href="http://www.codinghorror.com/blog/2012/03/how-to-hire-a-programmer.html" target="_blank">How to hire a programmer</a>. I wasn't surprise to what he had to say.  Most people who define themselves as programmer fail to perform basic programming tasks when asked on the spot (a job interview, ouch!!). In the article Jeff talks about the "FizzBuzz" test, so I took up the challenge and tried to create the program on the spot in PHP. I'm not a professional programmer, just a passionate hobbyist coder, and it took me about 10 minutes to code and run the program (if you want to see the result go <a title="FizzBuzz" href="http://www.paini.org/federico/fizzbuzz.php">here</a>).
+I came across a March 5th post on Jeff Atwood's website <a title="Coding Horror" href="http://www.codinghorror.com" target="_blank">Coding Horror</a> title <a title="How to Hire a programmer" href="http://www.codinghorror.com/blog/2012/03/how-to-hire-a-programmer.html" target="_blank">How to hire a programmer</a>. <br>
+I wasn't surprise to what he had to say.  Most people who define themselves as programmer fail to perform basic programming tasks when asked on the spot (a job interview, ouch!!). <br>
+In the article Jeff talks about the "FizzBuzz" test, so I took up the challenge and tried to create the program on the spot in PHP. I'm not a professional programmer, just a passionate hobbyist coder, and it took me about 10 minutes to code and run the program (if you want to see the result go <a title="FizzBuzz" href="http://www.paini.org/federico/fizzbuzz.php">here</a>).
 
 <strong>FizzBuzz challenge</strong>: <em>Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".</em>
 
