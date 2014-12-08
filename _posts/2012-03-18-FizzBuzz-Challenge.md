@@ -4,6 +4,7 @@ title:  "The FizzBuzz Programming Challenge "
 subtitle: "FizzBuzz Programming challenge in PHP, Python, Swift, and Objective-C"
 date:   2012-03-18 14:40:59
 author: "Federico"
+comments: true
 tags:
   - PHP
   - Code challenge
@@ -24,21 +25,21 @@ PHP:
 
 for ($i = 1; $i &lt;= 100; $i++) {
 
-  if (is_int($i/3) &amp;&amp; is_int($i/5)) {
-      print "FizzBuzz! &lt;br&gt; \n";
+  if (is_int($i/3) && is_int($i/5)) {
+      print "FizzBuzz! <br> \n";
   }elseif (is_int($i/3)){
-      print "Fizz! &lt;br&gt;";
+      print "Fizz! <br>";
   }elseif  (is_int($i/5)){
-      print "Buzz! &lt;br&gt; \n";
+      print "Buzz! <br> \n";
   } else {
-      print "$i &lt;br&gt; \n";
+      print "$i <br> \n";
   }
 }
 
-?&gt;
+?>
 
 {% endhighlight %}
-&nbsp;
+
 
 Apple Swift:
 
@@ -50,7 +51,7 @@ var five = 5
 var n = 0
 
 for n in 1...99 {
-    if (n % three == 0) &amp;&amp; (n % five == 0) {
+    if (n % three == 0) && (n % five == 0) {
         println("FizzBuzz!")
     } else if n % three == 0 {
         println("Fizz")
@@ -63,7 +64,7 @@ for n in 1...99 {
 }
 
 {% endhighlight %}
-&nbsp;
+
 
 Objective-C:
 
@@ -78,7 +79,7 @@ int main (int argc, const char * argv[])
  
   for (n=1; n&lt;=100; n=n+1) {
  
-    if (n%three == 0 &amp;&amp; n%five == 0) {
+    if (n%three == 0 && n%five == 0) {
  
        NSLog(@"FizzBuzz \n");
  
@@ -106,7 +107,6 @@ return 0;
 
 {% endhighlight %}
 
-&nbsp;
 
 Python:
 
