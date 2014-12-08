@@ -13,24 +13,25 @@ tags:
 categories: Blog
 ---
 
-I recently moved my blog sites to [Github Pages](http://github.io) and [Jekyll](http://www.jekyll.org). I have to admit it was not an easy "plug-n-play" experience.
+I recently moved my blog sites to [Github Pages](http://github.io) and [Jekyll](http://www.jekyll.org). I have to admit it, was not an easy "plug-n-play" experience.
 
-There is a lot of information out there but it's disjointed and not very easy to follow if you don't have already experience with Jekyll or Markdown.
-In this article I'm trying to guide a new user from switching from Wordpress to Jekyll.
+There is a lot of informations out there but it's disjointed and not very easy to follow if you don't have already experience with Jekyll or Markdown.
+In this article I'm trying to guide a new user in switching from Wordpress to Jekyll.
+
 First off I'd like to clarify a couple of things:
 
-1. Jekyll is not a blog software like Wordpress so do not expect something similar. <br> "*Jekyll is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator*"[See here](http://jekyllbootstrap.com/lessons/jekyll-introduction.html).
-2. You need to be familiar with using the terminal (CLI)
-3. You to learn to use the markdown "language" (very easy). Just go [here](http://daringfireball.net/projects/markdown/syntax) and start feminizing wit it 
+1. Jekyll is not a blog software like Wordpress so do not expect something similar. <br> "*Jekyll is a parsing engine bundled as a ruby gem used to build static websites from dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator*" [See here](http://jekyllbootstrap.com/lessons/jekyll-introduction.html).
+2. You need to be familiar with the terminal (CLI)
+3. You to learn to use the markdown "language" (very easy). Just go [here](http://daringfireball.net/projects/markdown/syntax) and start familiarize wit it 
 4. If you need a good and free markdown editor for Mac I suggest [Mou](http://25.io/mou/)
-5. You need to be familiar with Git and Github and have a Github account. You can find a good resource to start [here](http://sixrevisions.com/resources/git-tutorials-beginners/)
-6. If you host the site on [Github Pages](https://help.github.com/articles/what-are-github-pages/) your blog and content will be publicly accessible and available
+5. You need to be familiar with Git and Github and have a Github account. You can find a good resource [here](http://sixrevisions.com/resources/git-tutorials-beginners/)
+6. If you host the site on [Github Pages](https://help.github.com/articles/what-are-github-pages/) your blog and content will be publicly accessible (meaning: no private content)
 7. I did not find an easy and automated way to move the posts from Wordpress to Jekyll so be prepared to do some work 
 8. If you want to customize the available themes you need to be familiar with HTML 5 and CSS
 
 ## What I did
 
-This are the steps that lead me to create a local sandbox and two websites ([www.federicopaini.com](http://www.federicopaini.com) and [www.codecoms.com](http://www.codecoms.com)):
+These are the steps that lead me to create a local sandbox and two websites ([www.federicopaini.com](http://www.federicopaini.com) and [www.codecoms.com](http://www.codecoms.com)):
 
 1. I read the main [Jekyll](http://www.jekyll.org) webiste and various blogs form [andrewmunsell.com](https://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial), [joshualande.com](http://joshualande.com/jekyll-github-pages-poole/) and [vitobotta.com](http://vitobotta.com/how-to-migrate-from-wordpress-to-jekyll/)
 2. After that my head was spinning and I still did not understand how the thing worked so I proceeded doing the following: 
@@ -39,10 +40,10 @@ This are the steps that lead me to create a local sandbox and two websites ([www
    * I cd in that directory and typed `jekyll serve`
    * I went to my browser and looked at the address posted in the terminal: `http://127.0.0.1:4000`
    * I created a Github empty repository named `federicopaini.github.io` and sync it with my  MacBook using the [Github for Mac](https://mac.github.com/) app 
-   * I looked for a nice [theme](http://jekyllthemes.org/), downloaded, unzipped, and copied it in my sandbox
+   * I looked for a nice [theme](http://jekyllthemes.org/) and the I downloaded, unzipped, and copied it in my sandbox
    * Run `jekyll serve` and verified that the theme was rendered correctly
    * Modified the template according to the instructions 
-   * Copied a couple of old posts from my Wordpress site, turned them into "markdown" `.md` o `.markdown` files and then moved the .md posts into the `_post` folder 
+   * Copied a couple of old posts from my Wordpress site, turned them into "markdown" `.md or .markdown` files and then moved the .md posts into the `_post` folder 
    * Checked that the posts were rendered correctly on `http://127.0.0.1:4000`
    * Once the sandbox is ready and working I then copied the files from the sandbox to my local Github folder `federicopaini.github.io` 
    * Run `jekyll serve` to make sure no error were present. (**Note:** remember to kill off the running Jekyll instance otherwise you get an port conflict error)
@@ -61,7 +62,7 @@ The basic site was there in plain view, working fine. Finally We're getting some
 ##How Jekyll works
 
 On a basic level Jekyll will do it's magic any time you place a markdown file (in my case a blog post) on the `_post` directory. 
-Naturally there is a lot more than that but this is a good start. You can try creating article and put them in the `_post` directory. You will see that Jekyll generate a message in the terminal like this: <br>
+Naturally there is a lot more than that but this is a good start. You can try creating articles and put them in the `_post` directory. Assuming Jekyll is running you will see that Jekyll generate a message in the terminal similar to this: <br>
 
 `Regenerating: 1 files at 2014-12-05 00:04:49 ...done.`. <br>
 
@@ -146,7 +147,7 @@ Markdown and/or HTML text here
 
 ```   
    
-
+Enjoy!
 
 
 <p>&nbsp;</p>
