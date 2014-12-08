@@ -48,5 +48,3 @@ git config branch.master.merge refs/heads/master
 <p>&nbsp;</p>
 
 {% include twitter_plug.html %}
-
-{% include comments.html %}

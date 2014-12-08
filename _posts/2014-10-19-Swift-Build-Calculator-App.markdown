@@ -3,6 +3,8 @@ layout: post
 title:  "Swift Programming: Build a calculator app"
 subtitle: "Create and maintain a sequential text database in PHP"
 date:   2014-10-19 16:20:40
+author: "Federico"
+comments: True
 tags:
   - iOS
   - Swift
@@ -20,8 +22,8 @@ If you need the Xcode project files you can download them <a title="iOS Calcula
 It's a basic calculator, nothing fancy.  The app performs the usual arithmetic operations plus a series specialized percentage buttons intended to be used as tip calculators. I personally tested it on my iPhone 5 and it works as intended.
 
 
-![Fig 1a](http://codecoms.com/wp-content/uploads/2014/10/CalculatorInAction-2-162x300.png " Fig 1a - The Calculator in action") &nbsp;
-![image](http://codecoms.com/wp-content/uploads/2014/10/CalculatorInAction-1-161x300.png "Fig 1b. The Calculator in action")
+![Fig 1a](http://www.paini.org/codecoms/wp-content/uploads/2014/10/CalculatorInAction-2-162x300.png " Fig 1a - The Calculator in action") &nbsp;
+![image](http://www.paini.org/codecoms/wp-content/uploads/2014/10/CalculatorInAction-1-161x300.png "Fig 1b. The Calculator in action")
 
 I created the following user stories to guide me through the development:
 <ol>
@@ -41,7 +43,7 @@ I created the following user stories to guide me through the development:
 <p>&nbsp;</p>
 <h2>Creating the app in XCode 6</h2>
 As in every iOS application we need to start in Xcode 6 as a brand new application:
-![Fig.2](http://codecoms.com/wp-content/uploads/2014/10/CreateNewSingleScreenAppXcode-300x173.png "Fig 2. Create the calculator project")
+![Fig.2](http://www.paini.org/codecoms/wp-content/uploads/2014/10/CreateNewSingleScreenAppXcode-300x173.png "Fig 2. Create the calculator project")
 
 <ol>
 	<li>Select a single view application</li>
@@ -54,7 +56,7 @@ As in every iOS application we need to start in Xcode 6 as a brand new applicati
 I kept the calculator's look and feel is very simple (see Fig. 3).
 I created all the numbers buttons, the Clear and All Clear buttons, and all the standard arithmetic operations plus additional specialized "tip" buttons.
 
-![Fig.3](http://codecoms.com/wp-content/uploads/2014/10/Calculator-Main_storyboard-162x300.png "Fig 3. Storyboard layout of the calculator")
+![Fig.3](http://www.paini.org/codecoms/wp-content/uploads/2014/10/Calculator-Main_storyboard-162x300.png "Fig 3. Storyboard layout of the calculator")
 
 <ul>
 	<li>The digits 0-9 and the decimal (.) are connected to the IBAction "<em>digitTapped</em>"</li>
@@ -67,7 +69,7 @@ I created all the numbers buttons, the Clear and All Clear buttons, and all the 
 
 The way I organized the layout is explained in Fig.4  and is as follows:
 
-![Fig.4](http://codecoms.com/wp-content/uploads/2014/10/Calculator-Main_storyboard-Explanation-192x300.png "Fig 4. Calculator layout explanation")
+![Fig.4](http://www.paini.org/codecoms/wp-content/uploads/2014/10/Calculator-Main_storyboard-Explanation-192x300.png "Fig 4. Calculator layout explanation")
 
 <ul>
 	<li>(1) Is the main label which is named <em>answerFieldLabel. </em> The results are displayed here</li>
@@ -98,20 +100,20 @@ ArithmeticOperation  {
         self.leftNumber = leftNumber
     }
     
-    func addition() -&gt; Double {
+    func addition() -> Double {
         result = righNumber + leftNumber
         return result
     }
     
-    func subtraction() -&gt; Double {
+    func subtraction() -> Double {
         return righNumber - leftNumber
     }
     
-    func multiplication() -&gt; Double {
+    func multiplication() -> Double {
         return righNumber * leftNumber
     }
     
-    func division() -&gt; Double {
+    func division() -> Double {
         if leftNumber.isZero == false {
             return righNumber / leftNumber
         } else {
@@ -135,7 +137,7 @@ let total: Double
         self.tipPerc = tipPerc
     }
     
-    func calculatedTip() -&gt; Double {
+    func calculatedTip() -> Double {
         return total * tipPerc
         
     }
@@ -144,7 +146,7 @@ let total: Double
 
 You can try out all the classes by cutting and pasting the code in the Xcode playground:
 
-![Fig.3](http://codecoms.com/wp-content/uploads/2014/10/TipCalculator-Playground.png "Testing the TipCalculator Class with the Playground")
+![Fig.3](http://paini.org/codecoms/wp-content/uploads/2014/10/TipCalculator-Playground.png "Testing the TipCalculator Class with the Playground")
 
 
 ##The Code
@@ -253,3 +255,7 @@ This is the code in the *ViewController.swift* file between the brackets under "
 
 <p>&nbsp;</p>
 {% include twitter_plug.html %}
+
+
+<p>&nbsp;</p>
+{% include comments.html %}

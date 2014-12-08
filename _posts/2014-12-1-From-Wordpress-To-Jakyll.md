@@ -4,6 +4,7 @@ title:  "Moving from Wordpress to Jekyll with Github Pages"
 subtitle: "Guide on how to move a website from Wordpress to Jekyll hosted by Github Pages"
 date:   2014-12-07 19:12:22
 author: "Federico"
+comments: True
 tags:
   - Blog
   - Jekyll
@@ -152,4 +153,7 @@ Enjoy!
 
 <p>&nbsp;</p>
 {% include twitter_plug.html %}
+
+<p>&nbsp;</p>
+{% include comments.html %}
   
