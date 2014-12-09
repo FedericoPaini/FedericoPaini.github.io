@@ -16,7 +16,9 @@ categories: Python
 Let’s start by saying that I don’t want to start a religious war. I like Ruby but I also like Python. These two languages are very good in their own right and are equally powerful and useful.
 Personally I have a slight preference for Ruby. I find it more whimsical and more “creative” than Python. Having said that this trait can also be a downside.
 
-The story goes as follow: I was looking for a programming language to teach to my 8-year-old son (it’s never too early to start). So, after having done some research few trial and errors I decided to teach him Python. Why? Here is why:
+The story goes as follow: I was looking for a programming language to teach to my 8-year-old son (it’s never too early to start). So, after having done some research few trial and errors I decided to teach him Python. Why? 
+
+Here is why:
 
 Python’s has “Turtle” a Logo-style interactive graphic shell when you can write commands and make geometric shapes. The child sees his/her results right away. Instant gratification. You can combine a geometry lesson with a programming lesson all at once.
 Python’s syntax is quite rigid and there is only one (right) way to do things. This is good for a beginner, less room for error.
