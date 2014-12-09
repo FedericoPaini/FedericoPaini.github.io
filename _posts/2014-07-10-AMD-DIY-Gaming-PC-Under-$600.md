@@ -83,11 +83,13 @@ When you are building a system think about how you want the air to flow inside t
 <p>&nbsp;</p>
 
 <ul>
-	<li><strong style="font-size: 16px;">CPU
-</strong>A multi-core CPU is a must for playing last generation video games and the AMD FX6300 delivers 6 cores at 3.5GHz on a budget. After many hours of research I found evidence that shows that AMD has the same in-game result than Intel but with considerable cost savings. Sure, Intel i7 perform better in benchmarking but in a live game I personally could not see the difference. If you want to save even more you could switch to a AMD A8 or A10 series. A better (but more expensive) setup is to switch to the 8-cores FX8350 @4GHz.</li>
+	<li><strong>CPU</strong>
+A multi-core CPU is a must for playing last generation video games and the AMD FX6300 delivers 6 cores at 3.5GHz on a budget. After many hours of research I found evidence that shows that AMD has the same in-game result than Intel but with considerable cost savings. Sure, Intel i7 perform better in benchmarking but in a live game I personally could not see the difference. If you want to save even more you could switch to a AMD A8 or A10 series. A better (but more expensive) setup is to switch to the 8-cores FX8350 @4GHz.</li>
+</ul>
 
-	<li><strong>CPU cooler:
-</strong>This is a very important component that will prolong the life of the CPU, help stabilizing its performance and allow you to increase the CPU clock speed (if you're into the whole overclocking thing). I really like water cooling: effective, silent and looks great when assembled. I priced this build assuming the use of the stock cooler included in the CPU box. I plan to upgrade to a water cooling device very soon. If you use the stock cooler please <span style="text-decoration: underline;">DO NOT</span> attempt to overclock the CPU until you have purchased a better CPU cooling device.</li>
+<ul>
+	<li><strong>CPU cooler:</strong>
+This is a very important component that will prolong the life of the CPU, help stabilizing its performance and allow you to increase the CPU clock speed (if you're into the whole overclocking thing). I really like water cooling: effective, silent and looks great when assembled. I priced this build assuming the use of the stock cooler included in the CPU box. I plan to upgrade to a water cooling device very soon. If you use the stock cooler please <span style="text-decoration: underline;">DO NOT</span> attempt to overclock the CPU until you have purchased a better CPU cooling device.</li>
 </ul>
 
 <ul>
