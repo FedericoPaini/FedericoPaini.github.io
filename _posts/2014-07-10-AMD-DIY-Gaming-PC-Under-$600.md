@@ -85,18 +85,23 @@ When you are building a system think about how you want the air to flow inside t
 <ul>
 	<li><strong style="font-size: 16px;">CPU
 </strong>A multi-core CPU is a must for playing last generation video games and the AMD FX6300 delivers 6 cores at 3.5GHz on a budget. After many hours of research I found evidence that shows that AMD has the same in-game result than Intel but with considerable cost savings. Sure, Intel i7 perform better in benchmarking but in a live game I personally could not see the difference. If you want to save even more you could switch to a AMD A8 or A10 series. A better (but more expensive) setup is to switch to the 8-cores FX8350 @4GHz.</li>
+
 	<li><strong>CPU cooler:
 </strong>This is a very important component that will prolong the life of the CPU, help stabilizing its performance and allow you to increase the CPU clock speed (if you're into the whole overclocking thing). I really like water cooling: effective, silent and looks great when assembled. I priced this build assuming the use of the stock cooler included in the CPU box. I plan to upgrade to a water cooling device very soon. If you use the stock cooler please <span style="text-decoration: underline;">DO NOT</span> attempt to overclock the CPU until you have purchased a better CPU cooling device.</li>
 </ul>
+
 <ul>
 	<li><strong>Video Card:</strong>
 I spent a lot of time researching the best card for the buck. The HD7770 is under $150, proven architecture and with 2GB RAM DDR5 will work great for any game you have. Furthermore, in the future you could buy another one (when the price drops) and create a SLI/CrossfireX configuration with 2 video cards.</li>
 </ul>
+
 <ul>
 	<li><strong>Motherboard:</strong>
 The Asus M5A97 is a very good "budget" MoBo with all the bells and whistles. The chipset is the AMD 970, which is a simpler version of the AMD 990FX. The more important difference from its bigger and more expensive brethren is the inability for the second PCI Express to work at 16x when in SLI/CrossfireX mode. When in CrossfireX mode the second PCI Express operates at 4x only. Just remember to install the video card to the first PCI Express slot to take advantage of the full 16x speed.</li>
 </ul>
+
 <p>&nbsp;</p>
+
 <a href="http://www.paini.org/codecoms/wp-content/uploads/2014/07/ASUS_M5A97_R2_0_Motherboard1.png"><img class="size-medium wp-image-726" src="http://www.paini.org/codecoms/wp-content/uploads/2014/07/ASUS_M5A97_R2_0_Motherboard1-300x239.png" alt="ASUS has launched three different motherboard models based on the AMD 970 chipset" width="300" height="239" /></a> 
 <p> Fig.2 - ASUS has launched three different motherboard models based on the AMD 970 chipset</p>
 
