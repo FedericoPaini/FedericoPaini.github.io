@@ -62,7 +62,7 @@ I assembled this PC to be upgradable in the near future (12-18 month). By using 
 
 <ul>
 <li><strong>Case</strong>
-Make sure you get a good ATX screwless gaming case with front access to USB (2.0 and 3.0) and headphone/mike connection. Also make sure the case has plenty of fan enclosures on the top and on the back so to have a good airflow. I prefer a case with the side window because it looks cool.
+Make sure you get a good ATX screwless gaming case with front access to USB (2.0 and 3.0) and headphone/mike connection. Also make sure the case has plenty of fan enclosures on the top and on the back so to have a good airflow. I prefer a case with the side window because it looks cool.<br>
 <strong>Cable Management:</strong>
 This is something that doesn't cost anything but makes a big difference for the system as a whole. Good cable management does not impede air flow and helps keeping the PC cool and stable. Please refer to the link above for a very good article from <a title="The ultimate guide to proper PC cable management" href="http://www.pcworld.com/article/2144766/the-beginners-guide-to-proper-pc-cable-management.html" target="_blank">PC World</a> on the subject.
 <strong>Airflow </strong>
