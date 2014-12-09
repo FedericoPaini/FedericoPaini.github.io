@@ -107,8 +107,6 @@ The Asus M5A97 is a very good "budget" MoBo with all the bells and whistles. The
 <a href="http://www.paini.org/codecoms/wp-content/uploads/2014/07/ASUS_M5A97_R2_0_Motherboard1.png"><img class="size-medium wp-image-726" src="http://www.paini.org/codecoms/wp-content/uploads/2014/07/ASUS_M5A97_R2_0_Motherboard1-300x239.png" alt="ASUS has launched three different motherboard models based on the AMD 970 chipset" width="300" height="239" /></a> 
 <p> Fig.2 - ASUS has launched three different motherboard models based on the AMD 970 chipset</p>
 
-<p>&nbsp;</p>
-
 <h1>Step by step assembly of the gear</h1>
 
 <h2> Step 1 - Power Supply and DVD</h2>
@@ -123,7 +121,6 @@ As initial step I opened the case and installed the Power supply, DVD and hard d
 <a href="http://www.paini.org/codecoms/wp-content/uploads/2014/07/FrontCaseWithDVD.png"><img class="wp-image-700 size-medium" src="http://www.paini.org/codecoms/wp-content/uploads/2014/07/FrontCaseWithDVD-300x225.png" alt="Fromt of the PC case after installing DVD" width="300" height="225" /></a> 
 <p>Fig.4 - Front of the PC case after installing the DVD</p>
 
-<p>&nbsp;</p>
 
 <h2>Step 2 - MoBo, CPU, and RAM Setup</h2>
 
@@ -148,8 +145,6 @@ After that comes the motherboard installation into the case:
 <a href="http://www.paini.org/codecoms/wp-content/uploads/2014/07/MoBO-Installed.png"><img class="wp-image-744 size-medium" src="http://www.paini.org/codecoms/wp-content/uploads/2014/07/MoBO-Installed-300x191.png" alt="Motherboard Installed in the Case" width="300" height="191" /></a> 
 <p>Fig.6 - The M5A97 fits nicely in the case. Make sure you free the inside from all the loose cables</p>
 
-<p>&nbsp;</p>
-
 <h2>Step 3 - Installing the Video Card</h2>
 
 <ol>
@@ -160,7 +155,6 @@ After that comes the motherboard installation into the case:
 </ol>
 <a href="http://www.paini.org/codecoms/wp-content/uploads/2014/07/VideoCard-Installed.png"><img class="alignleft size-medium wp-image-743" src="http://www.paini.org/codecoms/wp-content/uploads/2014/07/VideoCard-Installed-300x225.png" alt="VideoCard installed in the 1st PCI Express slot" width="300" height="225" /></a>
 <p>Fig.7 - Global view of the case</p>
-<p>&nbsp;</p>
 
 <h2>Step 4 - Connecting Cables</h2>
 
@@ -173,7 +167,6 @@ After that comes the motherboard installation into the case:
 	<li>Then finish with the HD and DVD SATA connectors and power</li>
 </ol>
 
-<p>&nbsp;</p>
 
 <h2>Step 5 - Boot up and Pray</h2>
 
