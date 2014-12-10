@@ -8,7 +8,7 @@ comments: true
 tags:
   - PHP
   - Code challenge
-  - How to
+  - How-to
 categories: PHP
 ---
 
@@ -23,7 +23,7 @@ This is my code in. I admit is not the most elegant solution but it does the tr
 PHP:
 {% highlight php %}
 
-for ($i = 1; $i &lt;= 100; $i++) {
+for ($i = 1; $i <= 100; $i++) {
 
   if (is_int($i/3) && is_int($i/5)) {
       print "FizzBuzz! <br> \n";
@@ -77,7 +77,7 @@ int main (int argc, const char * argv[])
  
   int n, three = 3, five = 5;
  
-  for (n=1; n&lt;=100; n=n+1) {
+  for (n=1; <=100; n=n+1) {
  
     if (n%three == 0 && n%five == 0) {
  
