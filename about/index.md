@@ -9,9 +9,11 @@ I started coding in Commodore64 BASIC when I was 14 years old and I never looked
 
 * [Github repo](http://www.github.com/federicopaini)
 * [Linked in Profile](http://www.linkedin.com/in/federicopaini/)
-* [Website](https://www.paini.org/)
+* [Personal Website](https://www.paini.org/)
+* [Personal Blog](http://www.federicopaini.com)
+* [Codecoms](http://www.codecoms.com)
 * [Contact Me](mailto:federico.paini@gmail.com)
 
 ###About this blog
-This blog was created with [Jekyll](http://jekyllrb.com/) using the the [brume](http://jekyllthemes.org/themes/brume/) theme. Hosted by Ghithub Pages (thanks Github!)
+This blog was created with [Jekyll](http://jekyllrb.com/) using the the [brume](http://jekyllthemes.org/themes/brume/) theme. Hosted by Ghithub Pages (thanks Github!).
 
