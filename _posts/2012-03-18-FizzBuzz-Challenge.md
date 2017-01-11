@@ -18,7 +18,7 @@ In the article Jeff talks about the "FizzBuzz" test, so I took up the challenge 
 
 <strong>FizzBuzz challenge</strong>: <em>Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".</em>
 
-This is my code in. I admit is not the most elegant solution but it does the trick.
+This is my code. It' s not the most elegant solution but it does the trick.
 
 PHP:
 {% highlight php %}
