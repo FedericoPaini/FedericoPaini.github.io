@@ -35,11 +35,11 @@ If you're reading thnis article probaly you already know about Lightnign. So wit
 Here is how you do it.
 
 ## Pre Requisite
-1. Sublime 3 with the [Package Manager](packagecontrol.io) installed
+1. Sublime 3 with the [Package Manager](https://packagecontrol.io) installed
 2. The latest OSX
 
 ## Setup
-1. Download the [Force CLI](www.force-cli.heroku.com) executable from Heroku
+1. Download the [Force CLI](https://www.force-cli.heroku.com) executable from Heroku
 2. Open a terminal window, go to the downloaded file and make it executable typing `chmod 777` 
 3. Copy/move the executable in the folder `/usr/local/bin`
 4. Install the following plugin: **Fix Mac Path** and **Lightning**
