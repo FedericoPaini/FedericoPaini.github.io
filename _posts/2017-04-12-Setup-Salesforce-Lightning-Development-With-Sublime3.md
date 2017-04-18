@@ -14,7 +14,6 @@ tags:
   - Coding
 categories: Blog
 ---
-# Saleforce Lightnign development with Sublime 3
 
 Lightning is an awesome (relatively) new framework to develop Salesforce applications. Started in 2012 it's now the new standard in how to develop in Salesforce. 
 
@@ -51,3 +50,9 @@ Here is how you do it.
 9. You're ready rock and roll!!
 
 ## How it works
+1. Access the the menu by right click on your folder of choice 
+2. Select `Fetch` and then select the componet and/or app you want to modify
+3. Select `Add` to add a controler and/or a helper 
+4. Select `Create` to create an `App`, a `Component` or an `Interface`
+5. Your code will be synched on save 
+
