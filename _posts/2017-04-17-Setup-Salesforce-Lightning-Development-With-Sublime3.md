@@ -49,8 +49,8 @@ Here is how you do it.
 8. Login to the Salesforce org as shown in the picture below
 9. You're ready rock and roll!!
 
-![Fig.1](http://paini.org/federico/imgs/blog-imgs/Sublime3-Lightning/sublime-lightning.Fig1.png)
-<p align="center">Fig.1 - Loign to Salesforce Org by right-clicking on a folder<br> </p>
+![Fig.1](http://paini.org/federico/imgs/blog-imgs/Sublime3-Lightning/sublime-lightning.Fig1.png)<br>
+Fig.1 - Loign to Salesforce Org by right-clicking on a folder<p></p>
 
 ## How it works
 1. Access the the menu by right click on your folder of choice
