@@ -13,6 +13,6 @@ I started coding in Commodore64 BASIC when I was 14 years old and I never looked
 * [Personal Blog](http://www.federicopaini.com)
 * [Contact Me](mailto:federico.paini@gmail.com)
 
-About this blog
+###About this blog
 This blog was created with [Jekyll](http://jekyllrb.com/) using the the [brume](http://jekyllthemes.org/themes/brume/) theme. Hosted by Ghithub Pages (thanks Github!).
 
